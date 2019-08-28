@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>츀킨 Homepage</title>
+   <meta charset="utf-8">
+   <meta name="author" content="pixelhint.com">
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+
+</head>
+<body>
+
+
+   <header>
+      <div class="wrapper">
+         <a href="index.html">
+            <img src="img/logo.png" class="logo"/><br><br>
+         </a>
+
+         <nav>
+            <ul>
+               <li><a href="menu.html">MENUS</a></li>
+               <li><a href="store.html">STORES</a></li>
+               <li><a href="event.html">EVENTS</a></li>
+               <li><a href="franchise.html">FRANCHISE</a></li>               
+               <li><a href="오빠 페이지">MY</a></li>
+               	<li><a href="아라언니 페이지"><img src="img/shopingcart.png" width="20" height="23"></a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <section class="hero">
+
+   </section>
+
+
+<div class="chicken2"> 
+   <a href="event_page.html"><img src="img/이벤트2.png" width="700" height="450"></a>
+   <a href="menu.html"><img class = "chi" src="img/이미지_16.png" width="150" height="150" img src="img/이벤트2.png" width="700" height="450"></a>
+</div>
+
+   <div class="fectori1" >
+      <a href="store.html"><img class="factori1" src="img/1.png" width="260" height="200" id="img">
+      <img class="factori2" src="img/2.png" width="260" height="200" id="img2">
+      <img class="factori3" src="img/3.png" width="260" height="200" id="img3">
+   </div>
+   
+   <section class="work">
+      <div class="wrapper">
+         <article class="project1">
+            <div class="media">
+               <a href="menu.html"><img src="img/project1.jpg" alt="" title=""></a>
+            </div>
+            <div class="details">
+
+                  <h1>츀킨은</h1>
+
+               <p style="font-size: 15px;">고객님들의 성원에 힘입어 나날이 성장하는 기업입니다.<br>
+                     신선한 식재료와 정성 가득한 맛을 추구하고자 항상 노력합니다.</p>
+            </div>
+         </article>
+         <article class="project2">
+            <div class="media">
+               <a href="menu.html"><img src="img/project2.jpg" alt="" title=""></a>
+            </div>
+            <div class="details">
+               <p><h1>배달서비스 : 02-1111-2222</h1>
+            </div>
+         </article>
+      </div>
+   </section>
+
+   <footer>
+      <div class="wrapper">
+         <p class="copyrights">주식회사 츀킨 | 고객상담 : 02-3918-7883<br><br>Copyright 2018 © CHICKEN. All rights reserved.</p>
+         
+         <ul class="social">
+            <li>
+               <a href="http://www.facebook.com/" target="_blank"><img src="img/fb_icon.png" alt="" title=""></a>
+            </li>
+            <li>
+               <a href="http://www.twitter.com/" target="_blank"><img src="img/twitter_icon.png" alt="" title=""></a>
+            </li>
+            <li>
+               <a href="#" target="_blank"><img src="img/google_icon.png" alt="" title=""></a>
+            </li>
+            <li>
+               <a href="#" target="_blank"><img src="img/rss_icon.png" alt="" title=""></a>
+            </li>
+         </ul>
+      </div>
+   </footer>
+
+
+<script>
+
+   var image=setInterval(myFun, 2000);   
+
+var i=1;
+var sw=0;
+
+function clearAlert() { // 멈춤
+  clearTimesout(image);
+}
+
+function start() // 재시작
+{
+   image=setInterval(myFun, 2000);   
+}
+
+function myFun() {
+   if(i==1)
+   {
+   document.getElementById("img").src="img/1.png";
+   document.getElementById("img2").src="img/2.png";
+   document.getElementById("img3").src="img/3.png";
+   }
+   if(i==2)
+   {
+      document.getElementById("img").src="img/2.png";
+      document.getElementById("img2").src="img/3.png";
+      document.getElementById("img3").src="img/1.png";
+   }
+   if(i==3)
+   {
+      document.getElementById("img").src="img/3.png";
+      document.getElementById("img2").src="img/1.png";
+      document.getElementById("img3").src="img/2.png";
+   }
+i=i%3+1;
+
+}
+
+   
+</script>
+</body>
+</html>

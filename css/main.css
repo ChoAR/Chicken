@@ -1,0 +1,480 @@
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+    img{
+        max-width: 100%;
+    }
+
+
+body{
+    background: white;
+}
+
+
+h1, h2, h3, h4, h5 ,h6{
+    color: #626262;
+    font-family: "raleway-regular", arial;
+    letter-spacing: 1px;
+}
+
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: .75em 0 }
+h3              { font-size: 1.17em; margin: .83em 0 }
+h5              { font-size: .83em; margin: 1.5em 0 }
+h6              { font-size: .75em; margin: 1.67em 0 }
+h1, h2, h3, h4,
+h5, h6          { font-weight: bolder }
+
+
+
+/*  header  */
+header{
+    width: 100%;
+    height: 160px;
+}
+
+header .logo{
+    float: left;
+    margin-top: 60px;
+}
+
+header nav{
+    float: right;
+    margin-top: 75px;
+}
+
+header ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    margin-left: 40px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #414751;
+    font-family: "raleway-semibold", arial;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+    transition: .1s linear;
+    -webkit-transition: .1s linear;
+}
+
+header ul li a:hover,
+header ul li .current{
+    color: #fc884f;
+}
+
+
+/*  Hero section  */
+.hero{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url('../img/hero.jpg') no-repeat;
+     
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero1{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: url('../img/매장.jpg') no-repeat;
+     
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    overflow: hidden;
+}
+
+.hero2{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: url('../img/프랜차이즈.jpg') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+   overflow: hidden;
+}
+
+.hero3{
+    width: 100%;
+    height: 380px;
+    position: relative;
+    background: url('../img/이벤트.png') no-repeat;
+     
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+   overflow: hidden;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+.store2{
+        margin-left: 500px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #353535;
+}
+.store2 hr{
+        margin-left: -500px;
+}
+.store2 a{
+    margin-left: 50px;
+    font-size: 15px;
+    color: #8C8C8C
+}
+
+.store2 b{
+    margin-left: 360px;
+    font-size: 15px;
+    color: #8C8C8C
+}
+
+.store2 c{
+    margin-left: 100px;
+    font-size: 25px;
+    color: #353535;
+}
+
+.store2 d{
+    margin-left: 100px;
+    font-size: 15px;
+    color: #8C8C8C
+}
+.store2 e{
+    margin-left: 400px;
+}
+
+.hero .caption{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.services_home,
+.services{
+    margin-left: 300px;
+    overflow: hidden;
+    padding: 100px 0;
+    background: white;
+}
+
+.services{
+    background: #ffffff;
+}
+
+.services_home ul li,
+.services ul li{
+    list-style: none;
+    display: block;
+    width: 313px;
+    height: 500px;
+    float: left;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.services_home ul li li2{
+    margin-top: 50px;
+}
+
+.services_home h1 h7{
+    color: #EDA900;
+    font-size: 1.25em;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.services_home h1 h8{
+    color: #EDA900;
+    font-size: .85em;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.services ul li{
+    margin-bottom: 80px;
+}
+
+texts{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 820px;
+}
+
+.services_home ul li h1,
+.services ul li h1{
+    color: black;
+    font-family: "raleway-semibold", arial;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.services_event ul li{
+    list-style: none;
+    display: block;
+    width: 460px;
+    float: left;
+    margin-right: 80px;
+    text-align: center;
+    margin-left: 300px;
+    background: #FFE08C;
+    align-content: center;
+     margin-bottom: 180px;
+}
+
+
+.services_event2 ul li{
+    list-style: none;
+    display: block;
+    width: 900px;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 80px;
+    align-content: center;
+    margin-bottom: 180px;
+}
+
+.services_event2 ul lili{
+    list-style: none;
+    display: block;
+    width: 800px;
+    float: left;
+    align-content: center;
+    margin-bottom: 180px;
+    font-size: 25px;
+}
+
+
+.services_event2 ul lili gray {
+    color: gray;
+    font-size: 20px;
+}
+
+.services_event2 ul lili png {
+    margin-left: 373px;
+}
+
+.work{
+    padding: 100px 0;
+    margin-left: 1000px;
+    margin-top: -750px;
+}
+
+.work .project1{
+    z-index: 99;
+    overflow: hidden;
+    position: relative;
+}
+
+.work .project2,
+.work .project3{
+    margin-top: -120px;
+    overflow: hidden;
+    position: relative;
+}
+
+.work .project2{
+    z-index: 98;
+}
+
+.work .project3{
+    z-index: 97;
+}
+
+.work .media{
+    width: 630px;
+    height: 370px;
+    float: left;
+    overflow: hidden;
+}
+
+.work .media img{
+    width: 100%;
+    height: auto;
+}   
+
+.work .details{
+    width: 540px;
+    float: right;
+    padding: 80px;
+    background: white;
+    margin-top: -120px;
+}
+
+/*  footer  */
+footer{    
+    overflow: hidden;
+    padding: 80px 0;
+    background: #414751;
+}
+
+footer .copyrights{
+    text-align: center;
+    color: #fff;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+footer .copyrights .website{
+    text-decoration: none;
+    font-family: "raleway-semibold", arial;
+    font-weight: bold;
+}
+
+
+footer ul.social{
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer ul.social li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer ul.social li:last-child{
+    margin-right: 0;
+}
+
+menu{
+    float:left;
+    list-style: none;
+    padding:5px;
+    background-color: black;
+    color: white;
+    position: relative;
+
+}
+
+aside#left {
+    width: 200px;
+    margin-top: 20px;
+    float: left;
+} 
+
+
+#left ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #FFF;
+    list-style: none;
+    text-indent: 15px;
+}
+
+#left ul li {
+    background: #F2CB61;
+    line-height: 80px;
+    border-bottom: 5px dotted #FFFFFF;
+}
+
+#left ul li a {
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+}
+#left ul li b a {
+    text-decoration: none;
+    background: #d40203;
+    display: block;
+}
+
+#left ul li a:hover {
+    background: #d40203;
+}
+
+#left ul li#active {
+    background: #d40203;
+}
+
+.chicken2{ /*이벤트 사진*/
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.chicken2 .chi {
+    position: absolute;
+    top:120px; left: 555px;
+}
+
+.tel{
+    font-size: 9px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.number{
+    
+    margin-right: 50px;
+}
+.fectori1
+{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 110px;
+}
+.factori1
+{ 
+    margin-right: 25px;
+}
+.factori2
+{ 
+    margin-right: 25px;
+}
+.factori3
+{ 
+    margin-right: 25px;
+}
